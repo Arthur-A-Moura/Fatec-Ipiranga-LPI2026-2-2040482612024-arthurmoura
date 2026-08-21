@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+</head>
+<body>
+
+    <h1 style="color: red;">Contato</h1>
+
+    <p><i>Seja bem vindo, preencha o <b>formulário</b> abaixo para:</i></p>
+
+    <ul>
+        <li>duvidas</li>
+        <li>sugestões</li>
+        <li>criticas</li>
+        <li>Orçamentos</li>
+    </ul>
+
+    <p>Caso queira ver nossos produtos, clique <a href="#">aqui</a></p>
+
+    <form action="#" method="post">
+        <label for="nome">nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="digite seu nome" required><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="digite seu email" size="40" required><br>
+
+        <label for="telefone">telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="digite seu telefone" pattern="[0-9]{5}-[0-9]{4}" required><br>
+
+        <label for="assunto">assunto:</label>
+        <select id="assunto" name="assunto">
+            <option value="Duvidas">Duvidas</option>
+            <option value="Sugestões">Sugestões</option>
+            <option value="Críticas">Críticas</option>
+            <option value="Orçamentos">Orçamentos</option>
+        </select><br>
+
+        <label>Deseja receber uma copia deste e-mail:</label>
+        <input type="radio" id="sim" name="copia" value="Sim"> <label for="sim">Sim</label>
+        <input type="radio" id="nao" name="copia" value="Não"> <label for="nao">Não</label><br>
+
+        <label for="mensagem">mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="35" placeholder="digite sua mensagem"></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
