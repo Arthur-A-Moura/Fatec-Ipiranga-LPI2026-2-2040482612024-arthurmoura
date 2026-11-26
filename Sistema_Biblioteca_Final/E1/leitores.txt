@@ -1,0 +1,9 @@
+CODIGO;NOME;TIPO
+1;Lucas Pereira;1
+2;Helena Costa;2
+3;Antonio Ramos;3
+4;Mariana Alves;1
+5;Rafael Souza;1
+6;Beatriz Lima;2
+7;Carlos Mendes;3
+8;Fernanda Rocha;2

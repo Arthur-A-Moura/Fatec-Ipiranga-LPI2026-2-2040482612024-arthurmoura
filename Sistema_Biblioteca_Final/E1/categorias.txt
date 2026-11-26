@@ -1,0 +1,10 @@
+COD;CATEGORIA
+10;Literatura Brasileira
+20;Ciencias Exatas
+30;Computacao
+40;Historia
+50;Artes
+60;Saude
+70;Direito
+80;Infantil
+9O;Autoajuda

@@ -1,0 +1,18 @@
+**`E0/LEIAME.txt`**:
+```text
+PROJETO INTEGRADOR - LINGUAGEM DE PROGRAMACAO I (JAVA)
+FATEC IPIRANGA - ADS - 2o SEMESTRE DE 2026
+ALUNO: ARTHUR ALENCAR DE SOUSA MOURA (RA: 2040482612024)
+TEMA 4: SISTEMA DE BIBLIOTECA COMUNITARIA VILA LEITURA
+
+1. AMBIENTE
+- JDK 18 ou superior (arquivos lidos e gravados em UTF-8).
+- Execucao exclusiva pelo terminal, sem bibliotecas externas ou interface grafica.
+
+2. PASTA DE TRABALHO
+Os arquivos livros.txt, leitores.txt e emprestimos.txt devem estar na pasta E1 junto ao codigo-fonte.
+
+3. COMPILACAO E EXECUCAO
+cd E1
+javac SistemaBiblioteca.java
+java SistemaBiblioteca
